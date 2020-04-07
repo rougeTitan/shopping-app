@@ -1,0 +1,15 @@
+
+<!-- $event is required to recieve the event emitted by the child component-->
+<app-header ></app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <!--Adding ngif directive to deteremin which feature to display
+      <app-recipes *ngIf="loadedFeature ==='recipe'"></app-recipes>
+      <app-shopping-list *ngIf="loadedFeature !=='recipe'"></app-shopping-list>
+        we are going to use router so we dont need to use ngIf condition to switch between
+        the componenets-->
+        <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

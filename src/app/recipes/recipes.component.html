@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-md-5">
+        <!-- dispalying recipe list component on the left side-->
+        <app-recipe-list></app-recipe-list>
+    </div>
+    <div class="col-md-7">
+        <!-- dispalying recipe list component on the right side
+        <app-recipe-detail
+        *ngIf="selectedRecipe; else infoText"
+        [recipe]="selectedRecipe"></app-recipe-detail>
+        <ng-template #infoText>
+            <p>please select a recipe!</p>
+        </ng-template>
+    we added a new componenet in the recipes which will display the same message with the help of routing
+    this will make application more managable and modular. Also, our logic to display the the list of recipe details is broken
+    to fix it we need to create a
+-->
+        <router-outlet></router-outlet>
+    </div>
+</div>

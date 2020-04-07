@@ -1,0 +1,21 @@
+<!--adding onclick listener to trigger an event 
+     which then emits the event-->
+      <a
+        style="cursor: pointer;"
+        [routerLink] = "[index]"
+        routerLinkActive="active"
+        class="list-group-item clearfix"
+        
+        >
+        <div class="pull-left">
+          <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+          <p class="list-group-item-text">{{ recipe.description }}</p>
+        </div>
+        <span class="pull-right">
+          <img
+          [src]="recipe.imagePath"
+          alt="{{ recipe.name }}"
+          class="img-responsive"
+          style="max-height: 50px;">
+        </span>
+      </a>
