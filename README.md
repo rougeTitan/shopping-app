@@ -1,3 +1,5 @@
+If you are unable to run the project as it is after clonning in your local system then please run 'npm install' command as it will downaload all the required files and store them in 'node module' folder of your project.
+
 # ShoppingApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
